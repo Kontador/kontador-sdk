@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A5ECC71BCC354B00B06587 /* showRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECC61BCC354B00B06587 /* showRoutes.swift */; settings = {ASSET_TAGS = (); }; };
+		13A5ECC91BCC3FF200B06587 /* mapWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5ECC81BCC3FF200B06587 /* mapWorking.swift */; settings = {ASSET_TAGS = (); }; };
 		13ACE0021BC91DE100BA3F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACE0011BC91DE100BA3F78 /* AppDelegate.swift */; };
-		13ACE0041BC91DE100BA3F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACE0031BC91DE100BA3F78 /* ViewController.swift */; };
 		13ACE0071BC91DE100BA3F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACE0051BC91DE100BA3F78 /* Main.storyboard */; };
 		13ACE0091BC91DE100BA3F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ACE0081BC91DE100BA3F78 /* Assets.xcassets */; };
 		13ACE00C1BC91DE100BA3F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ACE00A1BC91DE100BA3F78 /* LaunchScreen.storyboard */; };
@@ -35,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A5ECC61BCC354B00B06587 /* showRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showRoutes.swift; sourceTree = "<group>"; };
+		13A5ECC81BCC3FF200B06587 /* mapWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapWorking.swift; sourceTree = "<group>"; };
 		13ACDFFE1BC91DE100BA3F78 /* kontador-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kontador-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ACE0011BC91DE100BA3F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13ACE0031BC91DE100BA3F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13ACE0061BC91DE100BA3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13ACE0081BC91DE100BA3F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13ACE00B1BC91DE100BA3F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,12 +84,12 @@
 		13ACDFF51BC91DE100BA3F78 = {
 			isa = PBXGroup;
 			children = (
+				8BCAC09B10A143E519D7081D /* Frameworks */,
 				13ACE0001BC91DE100BA3F78 /* kontador-sdk */,
 				13ACE0151BC91DE200BA3F78 /* kontador-sdkTests */,
 				13ACE0201BC91DE200BA3F78 /* kontador-sdkUITests */,
-				13ACDFFF1BC91DE100BA3F78 /* Products */,
 				FA215053E2B5B1595E33B70D /* Pods */,
-				8BCAC09B10A143E519D7081D /* Frameworks */,
+				13ACDFFF1BC91DE100BA3F78 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +106,13 @@
 		13ACE0001BC91DE100BA3F78 /* kontador-sdk */ = {
 			isa = PBXGroup;
 			children = (
+				13ACE00D1BC91DE100BA3F78 /* Info.plist */,
 				13ACE0011BC91DE100BA3F78 /* AppDelegate.swift */,
-				13ACE0031BC91DE100BA3F78 /* ViewController.swift */,
-				13ACE0051BC91DE100BA3F78 /* Main.storyboard */,
+				13A5ECC61BCC354B00B06587 /* showRoutes.swift */,
+				13A5ECC81BCC3FF200B06587 /* mapWorking.swift */,
 				13ACE0081BC91DE100BA3F78 /* Assets.xcassets */,
 				13ACE00A1BC91DE100BA3F78 /* LaunchScreen.storyboard */,
-				13ACE00D1BC91DE100BA3F78 /* Info.plist */,
+				13ACE0051BC91DE100BA3F78 /* Main.storyboard */,
 			);
 			path = "kontador-sdk";
 			sourceTree = "<group>";
@@ -330,8 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13ACE0041BC91DE100BA3F78 /* ViewController.swift in Sources */,
+				13A5ECC71BCC354B00B06587 /* showRoutes.swift in Sources */,
 				13ACE0021BC91DE100BA3F78 /* AppDelegate.swift in Sources */,
+				13A5ECC91BCC3FF200B06587 /* mapWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
